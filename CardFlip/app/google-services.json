@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "369297977418",
+    "firebase_url": "https://card-flip-bf17e.firebaseio.com",
+    "project_id": "card-flip-bf17e",
+    "storage_bucket": "card-flip-bf17e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369297977418:android:96aa06848c0489e6",
+        "android_client_info": {
+          "package_name": "com.cardflip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369297977418-uepg0a9f2rstf1qi35g8620ls20c698f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHV9cXe2wTFU5e7QeROZ4ZfqUZCdPRfHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="#1f3860"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="CARD FLIP"
+        android:textColor="#c2c6ce"
+        android:fontFamily="sans-serif"
+        android:textSize="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="35dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/main_image"
+        android:src="@drawable/yellow">
+    </ImageView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY!"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/button"
+        android:layout_marginTop="47dp">
+    </Button>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:id="@+id/high_score"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/instructions"
+            android:text="How to Play"
+            android:background="#1f3860"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</LinearLayout>
+

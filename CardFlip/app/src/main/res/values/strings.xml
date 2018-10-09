@@ -1,0 +1,5 @@
+<resources>
+<string name="app_name">Card Flip</string>
+<string name="instructions">\n \n    All you have to do to score   \n   points is to   \nswipe in the direction of
+        \n the rotation of the coloured \n card whose colour is \n  mentioned in the text above \n \n Beware of swiping in the \nwrong direction  </string>
+</resources>

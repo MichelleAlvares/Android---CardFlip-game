@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="#1f3860"
+    android:gravity="center"
+    tools:context="com.cardflip.RegistrationActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Registration"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextEmail"
+        android:hint="Enter your email id"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:inputType="textEmailAddress"
+        android:layout_margin="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPassword"
+        android:hint="Enter a password"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:inputType="textPassword"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* minimun 6 characters"
+        android:textColor="#ffffff"
+        android:layout_gravity="left"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#1f3860"
+        android:id="@+id/register"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registered"
+        android:text="Already Registered? Sign in here"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
